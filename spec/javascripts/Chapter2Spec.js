@@ -3,3 +3,35 @@ describe("twoPowTen", function() {
     expect(twoPowTen()).toEqual(1024);
   });
 });
+
+describe("triangle", function() {
+  it("returns the triangle", function() {
+    var triangle_string =  "*\n" +
+                           "**\n" +
+                           "***\n" +
+                           "****\n" +
+                           "*****\n" +
+                           "******\n" +
+                           "*******\n" +
+                           "********\n" +
+                           "*********\n" +
+                           "**********\n";
+    expect(triangle()).toEqual(triangle_string);
+  });
+});
+
+describe("triangleInnerWhile", function() {
+  it("returns the triangle", function() {
+    var triangle_string =  "*\n" +
+                           "**\n" +
+                           "***\n" +
+                           "****\n" +
+                           "*****\n" +
+                           "******\n" +
+                           "*******\n" +
+                           "********\n" +
+                           "*********\n" +
+                           "**********\n";
+    expect(triangleInnerWhile()).toEqual(triangle_string);
+  });
+});
