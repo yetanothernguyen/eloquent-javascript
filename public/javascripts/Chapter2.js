@@ -8,6 +8,13 @@ function twoPowTen() {
   return result;
 }
 
+function twoPowTenFor() {
+  var result = 1;
+  for (var count = 0; count < 10; count += 1)
+    result *= 2;
+  return result;
+}
+
 function triangle() {
   var line = "";
   var result = "";
@@ -16,6 +23,16 @@ function triangle() {
     line += "*";
     result += line + "\n";
     count += 1;
+  }
+
+  return result;
+}
+
+function triangleFor() {
+  var line = "", result = "";
+  for (var count = 0; count < 10; count += 1) {
+    line += "*";
+    result += line + "\n";
   }
 
   return result;
